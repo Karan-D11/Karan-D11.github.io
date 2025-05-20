@@ -1,0 +1,107 @@
+/* Apply styles to the entire webpage */
+body, html {
+  height: 100%; /* Set the height of the page to full */
+  font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+  overflow: hidden; /* Prevent scrolling */
+  color: white; /* Set the text color to white */
+  
+  /* Create a gradient background */
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-size: 400% 400%; /* Make the gradient bigger for animation */
+  animation: gradientShift 15s ease infinite; /* Animate the background */
+}
+
+/* Define the gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Style the overlay container */
+.overlay {
+  height: 100%; /* Fill the entire screen */
+  display: flex; /* Arrange elements flexibly */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
+  position: relative; /* Allow precise positioning */
+  padding: 20px; /* Add some space inside */
+  text-align: center; /* Center the text */
+}
+
+/* Style the main card that holds text */
+.hero-card {
+  background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+  border: 2px solid #00e5ff; /* Add a cyan border */
+  padding: 40px 60px; /* Add space inside the card */
+  border-radius: 20px; /* Round the corners */
+  backdrop-filter: blur(10px); /* Blur background for a cool effect */
+  box-shadow: 0 0 25px rgba(0, 229, 255, 0.4); /* Add glowing effect */
+  margin-top: -280px; /* Move the card upwards */
+  max-width: 700px; /* Limit the width */
+}
+
+/* Style the main heading */
+.hero-card h1 {
+  font-size: 48px; /* Make the text big */
+  margin-bottom: 20px; /* Add space below the heading */
+  color: #00e5ff; /* Cyan color */
+  text-shadow: 2px 2px 10px #000; /* Add a shadow effect */
+}
+
+/* Style the description text */
+.description {
+  font-size: 16px; /* Set text size */
+  color: #ccccff; /* Light purple color */
+  margin-bottom: 30px; /* Space below text */
+  line-height: 1.6; /* Improve readability */
+  text-shadow: 1px 1px 4px #000; /* Add a shadow effect */
+}
+
+/* Style the explore button */
+.hero-card a {
+  font-size: 22px; /* Set text size */
+  color: #fff; /* White text */
+  background-color: #ff0059; /* Bright pink background */
+  padding: 12px 30px; /* Make the button bigger */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Round the button */
+  text-decoration: none; /* Remove underline */
+  transition: all 0.3s ease; /* Smooth hover effect */
+  display: inline-block; /* Make it a clickable block */
+  box-shadow: 0 0 10px #ff0059; /* Add glow effect */
+}
+
+/* Change button style when hovered */
+.hero-card a:hover {
+  background-color: #e6004c; /* Slightly darker pink */
+  transform: scale(1.05); /* Slightly enlarge */
+  box-shadow: 0 0 15px #ff0059; /* Enhance glow effect */
+}
+
+/* Style the images */
+.side-image {
+  position: absolute; /* Position it freely */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Align perfectly */
+  width: 200px; /* Set width */
+  border-radius: 15px; /* Round the corners */
+  border: 2px solid #00e5ff; /* Cyan border */
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.6); /* Add glow */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for images */
+.side-image:hover {
+  transform: translateY(-50%) scale(1.1); /* Enlarge slightly */
+}
+
+/* Position images */
+.image-left {
+  left: 30px; /* Move image to the left */
+}
+
+.image-right {
+  right: 30px; /* Move image to the right */
+}

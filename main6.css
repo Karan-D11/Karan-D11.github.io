@@ -1,0 +1,66 @@
+/* General styles for the webpage */
+body {
+    margin: 0; /* Removes default margin */
+    background-color: black; /* Sets the background color */
+    color: white; /* Sets the text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font style */
+    font-size: 20px; /* Adjusts the text size */
+}
+
+/* Hover effect for links */
+a:hover {
+    transform: scale(1.07); /* Enlarges the element slightly */
+    box-shadow: 0 0 20px #00ffff; /* Adds a glowing effect */
+    background-color: #ff4d4d; /* Changes background color */
+    color: black; /* Changes text color */
+}
+
+/* Header section styling */
+.header {
+    padding: 30px 20px; /* Adds space inside the header */
+    color: #00bfff; /* Sets text color */
+    display: flex; /* Makes items align horizontally */
+    justify-content: space-between; /* Spaces elements apart */
+    align-items: center; /* Aligns items vertically */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    background-color: #111; /* Sets header background color */
+}
+
+/* Header title styling */
+.header-title {
+    font-size: 60px; /* Sets text size */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Styling for the header links */
+.header a {
+    font-size: 28px; /* Adjusts text size */
+    text-decoration: underline; /* Adds underline to the link */
+    color: #00bfff; /* Sets text color */
+}
+
+/* Main content section styling */
+.main-content {
+    display: flex; /* Makes elements align flexibly */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements */
+    padding: 40px 20px; /* Adds space inside */
+}
+
+/* Styling for unordered lists */
+.main-content ul {
+    max-width: 1000px; /* Limits width */
+    list-style-type: disc; /* Uses bullet points */
+    padding-left: 20px; /* Adds space on the left */
+    font-size: 24px; /* Adjusts text size */
+}
+
+/* Styling for images */
+.main-content img {
+    margin-top: 30px; /* Adds space above the image */
+    width: 90%; /* Sets responsive width */
+    max-width: 1000px; /* Limits maximum width */
+    height: auto; /* Maintains aspect ratio */
+    border: 3px solid #00bfff; /* Adds a border */
+    border-radius: 10px; /* Rounds the corners */
+}

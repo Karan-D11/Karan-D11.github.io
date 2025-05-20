@@ -1,0 +1,131 @@
+/* General styles for the webpage */
+body {
+    margin: 0; /* Removes default margin */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font style */
+    background-color: #121212; /* Dark background for a sleek look */
+    color: #f0f0f0; /* Light text color for readability */
+    padding: 20px; /* Adds spacing around content */
+}
+
+/* Header section styling */
+header {
+    display: flex; /* Makes elements align horizontally */
+    justify-content: space-between; /* Spaces elements apart */
+    align-items: center; /* Aligns items vertically */
+    background: linear-gradient(90deg, #00e5ff, #ff4d4d); /* Gradient background */
+    padding: 30px 40px; /* Adds space inside the header */
+    border-radius: 10px; /* Rounds the corners */
+    margin-bottom: 40px; /* Adds space below the header */
+}
+
+/* Styling for the header title */
+header h1 {
+    font-size: 36px; /* Sets text size */
+    color: white; /* Text color */
+    margin: 0; /* Removes default margin */
+}
+
+/* Styling for the home button */
+.home-link {
+    text-decoration: none; /* Removes underline */
+    font-size: 20px; /* Adjusts text size */
+    color: white; /* Text color */
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #ff4d4d; /* Sets button color */
+    border-radius: 8px; /* Rounds the corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for the home button */
+.home-link:hover {
+    background-color: #ff1a1a; /* Changes color when hovered */
+}
+
+/* Subtitle text styling */
+.subtitle {
+    text-align: center; /* Centers text */
+    color: #a8ffea; /* Sets text color */
+    font-size: 20px; /* Adjusts text size */
+    margin-bottom: 40px; /* Adds spacing below */
+}
+
+/* Section title styling */
+.section-title {
+    text-align: center; /* Centers text */
+    font-size: 28px; /* Adjusts text size */
+    margin-bottom: 20px; /* Adds spacing below */
+    color: #00e5ff; /* Sets text color */
+}
+
+/* Table container styling */
+.table-container {
+    max-width: 700px; /* Limits the width */
+    margin: 0 auto 40px auto; /* Centers the table */
+    overflow-x: auto; /* Enables scrolling if needed */
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.2); /* Adds a glow effect */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Makes table span full width */
+    border-collapse: collapse; /* Removes gaps between cells */
+    color: #fff; /* Text color */
+}
+
+/* Table header and cell styling */
+th, td {
+    padding: 14px 20px; /* Adds space inside cells */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Header row styling */
+th {
+    background-color: #333; /* Dark background for headers */
+    font-weight: bold; /* Makes header text bold */
+}
+
+/* Table row styling */
+td {
+    background-color: #222; /* Darker background for rows */
+    border-top: 1px solid #444; /* Adds subtle borders */
+}
+
+/* Progress bar container styling */
+.progress-container {
+    max-width: 700px; /* Limits width */
+    margin: 0 auto; /* Centers the section */
+    text-align: center; /* Centers text */
+}
+
+/* Progress bar label */
+.progress-label {
+    font-size: 18px; /* Sets text size */
+    font-weight: bold; /* Makes text bold */
+    margin-bottom: 10px; /* Adds space below */
+}
+
+/* Progress bar styling */
+.progress-bar {
+    background-color: #333; /* Sets background */
+    border-radius: 50px; /* Rounds the corners */
+    overflow: hidden; /* Ensures smooth animation */
+    height: 30px; /* Sets height */
+    margin-bottom: 8px; /* Adds space below */
+}
+
+/* Progress fill animation */
+.progress-fill {
+    background: linear-gradient(to right, #4CAF50, #00e676); /* Gradient effect */
+    height: 100%; /* Fills the bar */
+    width: 80%; /* Displays 80% progress */
+    transition: width 0.5s; /* Smooth animation */
+}
+
+/* Progress text styling */
+.progress-text {
+    font-size: 16px; /* Sets text size */
+    color: #ddd; /* Light text color */
+}

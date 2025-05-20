@@ -1,0 +1,72 @@
+/* General styles for the webpage */
+body {
+    margin: 0; /* Removes default margin */
+    background-color: black; /* Sets background color to black */
+    color: white; /* Sets text color to white */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font style */
+}
+
+/* Hover effect for links */
+a:hover {
+    transform: scale(1.07); /* Slightly enlarges the element */
+    box-shadow: 0 0 20px #00ffff; /* Adds a glow effect */
+    background-color: #ff4d4d; /* Changes background color */
+    color: black; /* Changes text color */
+}
+
+/* Header section styling */
+.header {
+    padding: 30px 20px; /* Adds space inside the header */
+    display: flex; /* Aligns elements in a row */
+    justify-content: flex-end; /* Aligns items to the right */
+    background-color: #111; /* Sets background color */
+}
+
+/* Styling for header links */
+.header a {
+    color: #00bfff; /* Sets text color */
+    text-decoration: underline; /* Adds underline */
+    font-size: 32px; /* Sets text size */
+}
+
+/* Main content section styling */
+.main-content {
+    display: flex; /* Uses flexbox layout */
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements */
+    padding: 40px 20px; /* Adds space inside */
+}
+
+/* Title styling */
+.title {
+    font-size: 60px; /* Sets large text size */
+    color: #00ffcc; /* Sets text color */
+    margin-bottom: 30px; /* Adds space below */
+    text-align: center; /* Centers text */
+    text-shadow: 2px 2px 4px #00bfff; /* Adds a shadow effect */
+}
+
+/* Content box styling */
+.content-box {
+    max-width: 1000px; /* Limits width */
+    background-color: #222; /* Sets background color */
+    padding: 30px; /* Adds space inside */
+    border-radius: 12px; /* Rounds the corners */
+    box-shadow: 0 0 10px #00bfff; /* Adds a glow effect */
+    margin-bottom: 40px; /* Adds space below */
+}
+
+/* List styling inside the content box */
+.content-box ul {
+    font-size: 22px; /* Sets text size */
+    list-style: disc; /* Uses bullet points */
+    padding-left: 20px; /* Adds left padding */
+}
+
+/* Styling for the revenue chart image */
+.chart-img {
+    width: 90%; /* Makes the image responsive */
+    max-width: 900px; /* Limits maximum width */
+    border-radius: 10px; /* Rounds the corners */
+    border: 4px solid #00bfff; /* Adds a border */
+}

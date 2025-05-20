@@ -1,0 +1,97 @@
+/* General styles for the webpage */
+body {
+    margin: 0; /* Removes default margin */
+    background-color: #121212; /* Dark background for a sleek look */
+    color: #f0f0f0; /* Light text color for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font style */
+    line-height: 1.6; /* Increases space between lines for better readability */
+}
+
+/* Header section styling */
+header {
+    display: flex; /* Makes elements align horizontally */
+    justify-content: space-between; /* Spaces elements apart */
+    align-items: center; /* Aligns items vertically */
+    background: linear-gradient(90deg, #00e5ff, #ff4d4d); /* Gradient background */
+    padding: 30px 40px; /* Adds space inside the header */
+    border-radius: 0 0 10px 10px; /* Rounds the bottom corners */
+}
+
+/* Header title styling */
+header h1 {
+    font-size: 36px; /* Sets text size */
+    color: white; /* Text color */
+    margin: 0; /* Removes default margin */
+}
+
+/* Styling for the home button */
+.home-link {
+    text-decoration: none; /* Removes underline */
+    font-size: 20px; /* Adjusts text size */
+    color: white; /* Text color */
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #ff4d4d; /* Sets button color */
+    border-radius: 8px; /* Rounds the corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Hover effect for the home button */
+.home-link:hover {
+    background-color: #e60000; /* Changes color when hovered */
+}
+
+/* Section container styling */
+.section {
+    padding: 40px 20px; /* Adds space inside the section */
+    max-width: 900px; /* Limits the width */
+    margin: auto; /* Centers the section */
+}
+
+/* Section title styling */
+.section-title {
+    font-size: 28px; /* Sets text size */
+    font-weight: bold; /* Makes text bold */
+    color: #00e5ff; /* Sets text color */
+    margin-bottom: 20px; /* Adds spacing below */
+    border-bottom: 2px solid #00e5ff; /* Adds a bottom border */
+    padding-bottom: 10px; /* Adds spacing below title */
+}
+
+/* List styling */
+.section ul {
+    padding-left: 20px; /* Adds left padding */
+    font-size: 18px; /* Adjusts text size */
+    margin-bottom: 30px; /* Adds spacing below */
+}
+
+/* List item styling */
+.section li {
+    margin-bottom: 10px; /* Adds space between items */
+}
+
+/* Navigation bar styling */
+.nav-bar {
+    display: flex; /* Aligns navigation links in a row */
+    justify-content: center; /* Centers links */
+    gap: 30px; /* Adds space between links */
+    background-color: #1e1e1e; /* Sets background color */
+    padding: 20px; /* Adds space inside */
+    border-top: 2px solid #ff4d4d; /* Adds a top border */
+    font-size: 18px; /* Sets text size */
+}
+
+/* Navigation link styling */
+.nav-bar a {
+    color: #fff; /* Sets text color */
+    text-decoration: none; /* Removes underline */
+    background-color: #00bfff; /* Sets background color */
+    padding: 10px 20px; /* Adds space inside */
+    border-radius: 6px; /* Rounds the corners */
+    transition: background 0.3s; /* Smooth hover effect */
+}
+
+/* Navigation link hover effect */
+.nav-bar a:hover {
+    background-color: #0099cc; /* Changes color when hovered */
+}

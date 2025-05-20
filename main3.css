@@ -1,0 +1,96 @@
+/* General styles for the webpage */
+body {
+    margin: 0; /* Removes default margins */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font style */
+    background-color: #111; /* Dark background color */
+    color: #f0f0f0; /* Light text color for readability */
+    padding: 20px; /* Adds space inside the page */
+}
+
+/* Header section styling */
+header {
+    display: flex; /* Makes items align horizontally */
+    justify-content: space-between; /* Spaces elements apart */
+    align-items: center; /* Aligns items vertically */
+    background: linear-gradient(90deg, #00e5ff, #ff4d4d); /* Gradient background */
+    padding: 30px 40px; /* Adds space inside the header */
+    border-radius: 10px; /* Rounds the corners */
+    margin-bottom: 40px; /* Adds space below the header */
+}
+
+/* Header text styling */
+header h1 {
+    font-size: 42px; /* Sets text size */
+    margin: 0; /* Removes default margin */
+    color: white; /* Text color */
+}
+
+/* Home button styling */
+.home-link {
+    text-decoration: none; /* Removes underline */
+    font-size: 22px; /* Sets text size */
+    color: white; /* Text color */
+    font-weight: bold; /* Makes the text bold */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #ff4d4d; /* Button color */
+    border-radius: 8px; /* Rounds the corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Home button hover effect */
+.home-link:hover {
+    background-color: #ff1a1a; /* Changes color when hovered */
+}
+
+/* Game section styling */
+.game {
+    display: flex; /* Makes items align horizontally */
+    flex-wrap: wrap; /* Allows items to wrap */
+    background-color: #1e1e1e; /* Dark background */
+    margin-bottom: 40px; /* Adds space below each game section */
+    padding: 20px; /* Adds space inside */
+    border-radius: 12px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.3); /* Adds a glow effect */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Game hover effect */
+.game:hover {
+    transform: scale(1.02); /* Slightly enlarges when hovered */
+}
+
+/* Game image styling */
+.game img {
+    width: 220px; /* Sets width */
+    height: 220px; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image fills its space */
+    border-radius: 12px; /* Rounds the corners */
+    margin-right: 20px; /* Adds space to the right */
+    flex-shrink: 0; /* Prevents the image from resizing */
+}
+
+/* Game content styling */
+.game-content {
+    flex: 1; /* Allows content to take up remaining space */
+}
+
+/* Game title styling */
+.game-content h2 {
+    margin: 0 0 10px; /* Adds space below the title */
+    font-size: 28px; /* Sets text size */
+    color: #00e5ff; /* Sets text color */
+}
+
+/* Number styling in the game title */
+.game-content h2 span {
+    color: #ff4d4d; /* Sets number color */
+    font-size: 24px; /* Sets number size */
+    margin-right: 10px; /* Adds space to the right */
+}
+
+/* Game description text styling */
+.game-content p {
+    font-size: 18px; /* Sets text size */
+    line-height: 1.6; /* Increases spacing for readability */
+    color: #e0e0e0; /* Sets text color */
+}
